@@ -7,6 +7,7 @@ const Navber = () => {
     < li > <NavLink to='/'>Home</NavLink> </li>
     < li > <NavLink to='/about'>About</NavLink> </li>
     < li > <NavLink to='/career'>Career</NavLink> </li>
+    < li > <NavLink to='/login'>Login</NavLink> </li>
   </>
 
   return (
@@ -34,7 +35,7 @@ const Navber = () => {
               <img src={defaultUserImg} />
             </div>
           </label>
-          <Link>
+          <Link to='/login'>
             <button className="btn bg-black text-white border-none rounded-md px-6">Login</button>
           </Link>
         </div>
